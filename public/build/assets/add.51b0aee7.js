@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#server_ids").select2({placeholder:window.translations.selectServers})});document.addEventListener("change",function(e){if(e.target.matches("#permanent")){var t=document.getElementById("duration");t.disabled=e.target.checked,e.target.checked&&(t.value="")}});

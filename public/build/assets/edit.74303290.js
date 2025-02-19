@@ -1,0 +1,1 @@
+$("#server_id").on("change",function(){let e=$(this).val();e&&(window.location.href=e)});$(document).ready(function(){$("#server_id").select2(),$("#group_id").select2()});document.addEventListener("change",function(e){if(e.target.matches("#permanent")){var t=document.getElementById("ends");t.disabled=e.target.checked,e.target.checked&&(t.value="")}});
