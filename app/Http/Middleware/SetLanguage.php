@@ -16,10 +16,23 @@ class SetLanguage
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if ($language = $request->cookie('language')) {
-            App::setLocale($language);
+
+        $language = $request->cookie('language');
+
+
+        if (!$language) {
+             //Get Browser Lang.
+             $browserLang = substr($request->server('HTTP_ACCEPT_LANGUAGE'), 0, 2);
+              if(in_array($browserLang ,['bg', 'cz', 'de', 'en', 'es', 'fr', 'hu', 'it', 'ja', 'ko', 'pl', 'pt', 'ro', 'ru', 'sk', 'tr', 'uk', 'zh'])){
+                  $language = $browserLang;
+              }else {
+                 $language = 'en';
+            }
         }
 
+        if ($language) {
+            App::setLocale($language);
+        }
         return $next($request);
     }
 }

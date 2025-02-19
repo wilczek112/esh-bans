@@ -143,6 +143,7 @@
       "admins.deleteGroup": "Usuń Grupę",
       "admins.deleteGroups": "Administrator zostanie przeniesiony do poniższych grup wybranych dla WSZYSTKICH Serwerów. Istniejące indywidualne uprawnienia administratora zostaną usunięte!",
       "admins.deltedSuccesfully": "Administrator został pomyślnie usunięty.",
+      "admins.demos": "Demo",
       "admins.editBan": "Edytuj Bana",
       "admins.editGroup": "Edytuj Grupę",
       "admins.editGroups": "Edytuj Grupy Administratora",

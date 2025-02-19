@@ -69,7 +69,7 @@
     <div class="row layout-spacing ">
             <!-- MVP Widget -->
             <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
-                <div class="widget" style="height: 150px; background: linear-gradient(135deg, #1a2a6c, #b21f1f, #353026, #4b1248, #332e3c); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: white;">
+                <div class="widget" style="height: 150px; background: #89898954; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: white;">
                     <i class="fas fa-star" style="font-size: 40px; margin-bottom: 10px;"></i>
                     <h2 style="font-size: 40px; margin: 0;">{{ $mvp }}</h2>
                     <p style="margin-top: 5px; font-size: 16px;">{{ __('MVP') }}</p>
@@ -78,7 +78,7 @@
 
             <!-- Headshots Widget -->
             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 layout-spacing">
-                <div class="widget" style="height: 150px; background: linear-gradient(135deg, #232526, #414345, #6b0f1a, #1f4037, #16222a); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: white;">
+                <div class="widget" style="height: 150px; background: #89898954; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: white;">
                     <i class="fas fa-crosshairs" style="font-size: 40px; margin-bottom: 10px;"></i>
                     <h2 style="font-size: 40px; margin: 0;">{{ $headshots }}</h2>
                     <p style="margin-top: 5px; font-size: 16px;">{{ __('admins.headhost') }}</p>
@@ -87,7 +87,7 @@
 
             <!-- Total Kills Widget -->
             <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
-                <div class="widget" style="height: 150px; background: linear-gradient(135deg, #2e003e, #3a1c71, #e94057, #a7333f, #302b63); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: white;">
+                <div class="widget" style="height: 150px; background: #89898954; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: white;">
                     <i class="fas fa-skull" style="font-size: 40px; margin-bottom: 10px;"></i>
                     <h2 style="font-size: 40px; margin: 0;">{{ $totalKills }}</h2>
                     <p style="margin-top: 5px; font-size: 16px;">{{ __('Total Kills') }}</p>
@@ -96,7 +96,7 @@
 
             <!-- Games Won Widget -->
             <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
-                <div class="widget" style="height: 150px; background: linear-gradient(135deg, #2e003e, #3a1c71, #e94057, #a7333f, #302b63); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: white;">
+                <div class="widget" style="height: 150px; background: #89898954; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: white;">
                     <i class="fas fa-trophy" style="font-size: 40px; margin-bottom: 10px;"></i>
                     <h2 style="font-size: 40px; margin: 0;">{{ $gamesWon }}</h2>
                     <p style="margin-top: 5px; font-size: 16px;">{{ __('admins.gameswon') }}</p>
